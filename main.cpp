@@ -4,7 +4,7 @@
 
 #include "hr.hpp"
 
-int function(std::istream& input);
+extern int function(std::istream& input);
 
 int main(int argc, char* argv[]) {
 #ifdef FILE_INPUT
@@ -24,8 +24,4 @@ int main(int argc, char* argv[]) {
 #endif
 
     return function(inp_stream);
-}
-
-int function(std::istream& input) {
-    return 0;
 }

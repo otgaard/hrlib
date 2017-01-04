@@ -7,6 +7,6 @@ add_definitions(-DFILE_INPUT)
 
 set(SOURCE_FILES
         hr.hpp
-        main.cpp)
+        main.cpp challenges/bonetrousle.cpp)
 
 add_executable(hrlib ${SOURCE_FILES})
